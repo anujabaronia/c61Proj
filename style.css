@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+
+}
+
+.intro {
+/*
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 90%;
+    height: 90%;
+    z-index: 9;
+*/
+}
+
+#imgHobby {
+    width: 450px;
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+h1 {
+    /*text-shadow:2px 2px #F8BBD0;*/
+    font-size: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+
+
+p {
+    font-size: 18px;
+    color: #6A1B9A;
+
+
+}
+
+h2 {
+    font-size: 20px;
+    color: #1A237E;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background-color: #DAF7A6;
+}
+
+#favbook {
+    margin-bottom: 30px;
+    background-color: bisque;
+    padding: 20px;
+}
+
+#name {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#name1 {
+    font-family: 'Sriracha', cursive;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    
+/*
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+   
+    top: 10px;
+    right: 30px;
+   
+    z-index: 10;
+   
+    cursor: pointer;
+  */
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#imgAuthor {
+    height: 500px;
+    width: 700px;
+    border-style: double;
+    border-width: thick;
+    
+}
+.parallax-inner {
+
+/*    display: table-cell;*/
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#imgAuthor:hover {
+  transform: scale(.9,.9);
+}
+
+#anchorimg{
+    color: black;
+}
+#contact
+{
+background: firebrick;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: white;
+    text-shadow: none;
+}
